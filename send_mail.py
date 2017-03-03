@@ -17,6 +17,10 @@ smtpObject = smtplib.SMTP('smtp.gmail.com', 587);
 smtpObject = smtplib.ehlo()
 # a return value of 250 means the greeting is  successful
 
+# enables encryption for your connection
+smtpObj.starttls()
+# the 220 return value tells you that the server is ready
+
 smtpObject.login(your_email, your_password)
 # a return value of 235 means successful
 # you might get an error if you have login through less secure apps turned off in your
