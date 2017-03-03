@@ -18,7 +18,7 @@ smtpObject = smtplib.ehlo()
 # a return value of 250 means the greeting is  successful
 
 # enables encryption for your connection
-smtpObj.starttls()
+smtpObject.starttls()
 # the 220 return value tells you that the server is ready
 
 smtpObject.login(your_email, your_password)
