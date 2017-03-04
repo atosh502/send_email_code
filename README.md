@@ -1,7 +1,6 @@
 # send_email_code
 
 ## Getting Started
-
 Follow one of the following:
 
 ### Turn it into executable script
@@ -14,7 +13,7 @@ Follow one of the following:
 ### Run using python executable
       Run: `python3 send_mail.py`
       
-Further resources:
+## Further resources:
 
 * [Python Wikibooks](https://en.wikibooks.org/wiki/Python_Programming/Email)    
 * [Python Docs - smtplib ](https://docs.python.org/3/library/smtplib.html)
@@ -24,5 +23,5 @@ Further resources:
 * [https://pocoproject.org/slides/000-IntroAndOverview.pdf](https://pocoproject.org/slides/000-IntroAndOverview.pdf)
       
       
-References:
+## References:
 [Nostarch.com](https://www.nostarch.com/automatestuff/)
